@@ -54,7 +54,8 @@
                                     <td>".$hasil['grade']."</td>
                                     <td>
                                         <a href='ubah.php?index=".$id."' class='btn btn-success btn-sm'>Ubah</a>
-                                        <a href='hapus.php?index=".$id."' class='btn btn-danger btn-sm'>Hapus</a>
+                                        <a onclick='return confirm(\"Apakah Anda yakin ingin menghapus data ini?\")' 
+                                        href='hapus.php?index=".$id."' class='btn btn-danger btn-sm'>Hapus</a>
                                     </td>
                                 </tr>
                             ";

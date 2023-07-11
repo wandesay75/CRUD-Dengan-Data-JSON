@@ -78,7 +78,7 @@ if(isset($_POST['save'])){
             <div class="mb-3 row">
                 <label class="col-sm-3 col-form-label">Nama Mahasiswa</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="nama" name="nama">
+                    <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan Nama Mahasiswa">
                 </div>
             </div>
 
@@ -116,7 +116,7 @@ if(isset($_POST['save'])){
             <div class="mb-3 row">
                 <label class="col-sm-3 col-form-label">Matakuliah</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="matakuliah" name="matakuliah">
+                    <input type="text" class="form-control" id="matakuliah" name="matakuliah" placeholder="Masukkan Nama Matakuliah">
                 </div>
             </div>    
  
@@ -124,21 +124,21 @@ if(isset($_POST['save'])){
             <div class="mb-3 row">
                 <label class="col-sm-3 col-form-label">Nilai Tugas</label>
                 <div class="col-sm-10">
-                    <input type="number" class="form-control" id="tugas" name="tugas">
+                    <input type="number" class="form-control" id="tugas" name="tugas" placeholder="Masukkan Nilai Tugas">
                 </div>
             </div>    
  
             <div class="mb-3 row">
                 <label class="col-sm-3 col-form-label">Nilai UTS</label>
                 <div class="col-sm-10">
-                    <input type="number" class="form-control" id="uts" name="uts">
+                    <input type="number" class="form-control" id="uts" name="uts" placeholder="Masukkan Nilai UTS">
                 </div>
             </div>    
  
             <div class="mb-3 row">
                 <label class="col-sm-3 col-form-label">Nilai UAS</label>
                 <div class="col-sm-10">
-                    <input type="number" class="form-control" id="uas" name="uas">
+                    <input type="number" class="form-control" id="uas" name="uas" placeholder="Masukkan Nilai UAS">
                 </div>
             </div>
 

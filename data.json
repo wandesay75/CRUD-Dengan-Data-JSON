@@ -3,9 +3,9 @@
         "nama": "Alvin Austin",
         "kelas": "4A",
         "matakuliah": "Web Programming",
-        "tugas": "85",
-        "uts": "93",
-        "uas": "100",
+        "tugas": "100",
+        "uts": "85",
+        "uas": "95",
         "nilai": 93,
         "grade": "A"
     },
@@ -13,30 +13,20 @@
         "nama": "Raihan Ramadhan",
         "kelas": "4B",
         "matakuliah": "Web Programming",
-        "tugas": "95",
-        "uts": "85",
-        "uas": "93",
-        "nilai": 91,
+        "tugas": "85",
+        "uts": "95",
+        "uas": "95",
+        "nilai": 92,
         "grade": "A"
     },
     {
         "nama": "Fadly Faturrohman",
         "kelas": "4B",
-        "matakuliah": "Jaringan Komputer",
-        "tugas": "85",
-        "uts": "92",
-        "uas": "85",
-        "nilai": 87,
-        "grade": "B"
-    },
-    {
-        "nama": "Yusup Supriatna",
-        "kelas": "4A",
         "matakuliah": "Web Programming",
-        "tugas": "75",
-        "uts": "84",
-        "uas": "93",
-        "nilai": 84,
+        "tugas": "86",
+        "uts": "76",
+        "uas": "78",
+        "nilai": 80,
         "grade": "B"
     },
     {
@@ -45,8 +35,18 @@
         "matakuliah": "Web Programming",
         "tugas": "100",
         "uts": "95",
-        "uas": "95",
-        "nilai": 97,
+        "uas": "90",
+        "nilai": 95,
         "grade": "A"
+    },
+    {
+        "nama": "Yusup Supriatna",
+        "kelas": "4B",
+        "matakuliah": "Web Programming",
+        "tugas": "85",
+        "uts": "88",
+        "uas": "93",
+        "nilai": 89,
+        "grade": "B"
     }
 ]
