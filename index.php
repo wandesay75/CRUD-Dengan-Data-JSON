@@ -16,7 +16,7 @@
     <div class="row">
         <div class="col-12">
             <a href="tambah.php" class="btn btn-primary">Tambah Data</a>
-            <table id="example" class="table table-bordered table-striped table-hover" style="margin-top:20px;" border="1px">
+            <table id="example" class="table table-bordered table-striped table-hover text-center" style="margin-top:20px;" border="1px">
                 <thead>
                     <th>No.</th>
                     <th>Nama Mahasiswa</th>
