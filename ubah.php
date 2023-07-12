@@ -81,7 +81,7 @@
     <div class="row">
         <div class="col-1"></div>
         <div class="col-8">
-            <a href="index.php" class="btn btn-primary">Kembali</a>
+
         <form method="POST">
             <div class="mb-3 row">
                 <label class="col-sm-3 col-form-label">Nama Mahasiswa</label>
@@ -153,6 +153,7 @@
             <input type="hidden" id="nilai" name="nilai" value="<?php echo $nilai; ?>">
             <input type="hidden" id="grade" name="grade" value="<?php echo $grade; ?>">
 
+            <a href="index.php" class="btn bg-warning text-white">Kembali</a>
             <input type="submit" name="save" value="Simpan" class="btn btn-primary">
         </form>
         </div>
