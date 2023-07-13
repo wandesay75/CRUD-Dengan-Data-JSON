@@ -78,7 +78,7 @@ if(isset($_POST['save'])){
             <div class="mb-3 row">
                 <label class="col-sm-3 col-form-label">Nama Mahasiswa</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan Nama Mahasiswa">
+                    <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan Nama Mahasiswa" required>
                 </div>
             </div>
 
@@ -86,27 +86,27 @@ if(isset($_POST['save'])){
                 <label class="col-sm-3 col-form-label">Kelas</label>
                 <div class="col-sm-10">
 
-                <input class="form-check-input" type="radio" name="kelas" id="kelas" value="4A">
+                <input class="form-check-input" type="radio" name="kelas" id="kelas" value="4A" required>
                 <label class="form-check-label" for="flexRadioDefault1">
                 4A
                 </label>
 
-                <input class="form-check-input" type="radio" name="kelas" id="kelas" value="4B">
+                <input class="form-check-input" type="radio" name="kelas" id="kelas" value="4B" required>
                 <label class="form-check-label" for="flexRadioDefault1">
                 4B
                 </label>
 
-                <input class="form-check-input" type="radio" name="kelas" id="kelas" value="4C">
+                <input class="form-check-input" type="radio" name="kelas" id="kelas" value="4C" required>
                 <label class="form-check-label" for="flexRadioDefault1">
                 4C
                 </label>
 
-                <input class="form-check-input" type="radio" name="kelas" id="kelas" value="4D">
+                <input class="form-check-input" type="radio" name="kelas" id="kelas" value="4D" required>
                 <label class="form-check-label" for="flexRadioDefault1">
                 4D
                 </label>
 
-                <input class="form-check-input" type="radio" name="kelas" id="kelas" value="4E">
+                <input class="form-check-input" type="radio" name="kelas" id="kelas" value="4E" required>
                 <label class="form-check-label" for="flexRadioDefault1">
                 4E
                 </label>
@@ -116,7 +116,7 @@ if(isset($_POST['save'])){
             <div class="mb-3 row">
                 <label class="col-sm-3 col-form-label">Matakuliah</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="matakuliah" name="matakuliah" placeholder="Masukkan Nama Matakuliah">
+                    <input type="text" class="form-control" id="matakuliah" name="matakuliah" placeholder="Masukkan Nama Matakuliah" required>
                 </div>
             </div>    
  
@@ -124,21 +124,21 @@ if(isset($_POST['save'])){
             <div class="mb-3 row">
                 <label class="col-sm-3 col-form-label">Nilai Tugas</label>
                 <div class="col-sm-10">
-                    <input type="number" class="form-control" id="tugas" name="tugas" placeholder="Masukkan Nilai Tugas">
+                    <input type="number" class="form-control" id="tugas" name="tugas" placeholder="Masukkan Nilai Tugas" required>
                 </div>
             </div>    
  
             <div class="mb-3 row">
                 <label class="col-sm-3 col-form-label">Nilai UTS</label>
                 <div class="col-sm-10">
-                    <input type="number" class="form-control" id="uts" name="uts" placeholder="Masukkan Nilai UTS">
+                    <input type="number" class="form-control" id="uts" name="uts" placeholder="Masukkan Nilai UTS" required>
                 </div>
             </div>    
  
             <div class="mb-3 row">
                 <label class="col-sm-3 col-form-label">Nilai UAS</label>
                 <div class="col-sm-10">
-                    <input type="number" class="form-control" id="uas" name="uas" placeholder="Masukkan Nilai UAS">
+                    <input type="number" class="form-control" id="uas" name="uas" placeholder="Masukkan Nilai UAS" required>
                 </div>
             </div>
 
