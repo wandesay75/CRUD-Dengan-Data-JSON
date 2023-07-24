@@ -32,9 +32,9 @@
                 <tbody>
                     <?php
 
-                        $file = "data.json";
+                        // $file = "data.json";
                         // Mengambil data dari data.json
-                        $dataJSON = file_get_contents($file);
+                        $dataJSON = file_get_contents('data.json');
                         // Decode data json kedalam data array php
                         $data = json_decode($dataJSON, true);
 

@@ -35,6 +35,7 @@ if(isset($_POST['save'])){
     } else {
         echo "nilai belum di input";
     }
+    
     // Membuat array data
     $data = [
         'nama' => $nama,
